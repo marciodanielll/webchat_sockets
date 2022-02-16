@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background: #f3f3f3;
+
+}
+
+br {
+  display: none;
+}
+
+header {
+  background: #173753;
+}
+
+h1 {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1240px;
+  width: 90%;
+}
+
+.chat-container {
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  padding: 20px 0;
+}
+
+.users-container {
+  padding: 10px;
+}
+
+.users-container form {
+  display: flex;
+  width: 100%;
+}
+
+.users-container form input {
+  background: #f3f3f3;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.users-container form button {
+  background-color: #1b4353;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 24px;
+  margin-left: 10px;
+  width: 80px;
+
+}
+
+#online-users {
+  list-style: none;
+  padding: 20px 0;
+}
+
+#online-users li {
+  color: #1b4353;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+#online-users li:first-child {
+  background: #1b4353;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+h2 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.messages-container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#message-history {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+#message-history li {
+  background: #1d70a2;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px 0;
+  padding: 10px 0;
+}
+
+#message-history li:nth-child( odd ) {
+  background: #97b9d1;
+  color: #000;
+
+}
+
+.send-container {
+  width: 100%;
+}
+
+.send-container form {
+  display: flex;
+  width: 100%;
+}
+
+.send-container form input {
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.send-container form button {
+  background-color: #1b4353;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 24px;
+  margin-left: 10px;
+  width: 80px;
+}
